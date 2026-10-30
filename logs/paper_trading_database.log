@@ -1,0 +1,130 @@
+2026-10-29 16:40:39,165 INFO paper_trading_database: logging initialized
+2026-10-29 16:46:39,228 INFO paper_trading_database: Starting ticker universe fetch
+2026-10-29 16:46:52,195 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 16:46:52,261 INFO paper_trading_database: Initializing database and saving ticker universe
+2026-10-29 16:47:02,049 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 16:47:02,412 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-29 16:50:59,374 INFO paper_trading_database: Starting ticker universe fetch
+2026-10-29 16:51:13,867 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 16:51:13,928 INFO paper_trading_database: Initializing database and saving ticker universe
+2026-10-29 16:51:27,160 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 16:51:27,196 INFO paper_trading_database: Committed 500 tickers so far
+2026-10-29 16:51:27,224 INFO paper_trading_database: Committed 1000 tickers so far
+2026-10-29 16:51:27,251 INFO paper_trading_database: Committed 1500 tickers so far
+2026-10-29 16:51:27,278 INFO paper_trading_database: Committed 2000 tickers so far
+2026-10-29 16:51:27,303 INFO paper_trading_database: Committed 2500 tickers so far
+2026-10-29 16:51:27,332 INFO paper_trading_database: Committed 3000 tickers so far
+2026-10-29 16:51:27,361 INFO paper_trading_database: Committed 3500 tickers so far
+2026-10-29 16:51:27,388 INFO paper_trading_database: Committed 4000 tickers so far
+2026-10-29 16:51:27,414 INFO paper_trading_database: Committed 4500 tickers so far
+2026-10-29 16:51:27,437 INFO paper_trading_database: Committed 5000 tickers so far
+2026-10-29 16:51:27,458 INFO paper_trading_database: Committed 5500 tickers so far
+2026-10-29 16:51:27,479 INFO paper_trading_database: Committed 6000 tickers so far
+2026-10-29 16:51:27,500 INFO paper_trading_database: Committed 6500 tickers so far
+2026-10-29 16:51:27,544 INFO paper_trading_database: Committed 7000 tickers so far
+2026-10-29 16:51:27,563 INFO paper_trading_database: Committed 7500 tickers so far
+2026-10-29 16:51:27,584 INFO paper_trading_database: Committed 8000 tickers so far
+2026-10-29 16:51:27,604 INFO paper_trading_database: Committed 8500 tickers so far
+2026-10-29 16:51:27,627 INFO paper_trading_database: Committed 9000 tickers so far
+2026-10-29 16:51:27,648 INFO paper_trading_database: Committed 9500 tickers so far
+2026-10-29 16:51:27,668 INFO paper_trading_database: Committed 10000 tickers so far
+2026-10-29 16:51:27,689 INFO paper_trading_database: Committed 10500 tickers so far
+2026-10-29 16:51:27,709 INFO paper_trading_database: Committed 11000 tickers so far
+2026-10-29 16:51:27,729 INFO paper_trading_database: Committed 11500 tickers so far
+2026-10-29 16:51:27,750 INFO paper_trading_database: Committed 12000 tickers so far
+2026-10-29 16:51:27,770 INFO paper_trading_database: Committed 12500 tickers so far
+2026-10-29 16:51:27,792 INFO paper_trading_database: Committed 13000 tickers so far
+2026-10-29 16:51:27,804 INFO paper_trading_database: Saved 13288 new tickers to the database
+2026-10-29 17:07:18,589 INFO paper_trading_database: Starting ticker universe fetch
+2026-10-29 17:07:28,146 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 17:07:28,205 INFO paper_trading_database: Initializing database and saving ticker universe
+2026-10-29 17:07:41,319 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 17:07:41,319 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-29 17:09:09,121 INFO paper_trading_database: Committed 2 tickers so far
+2026-10-29 17:09:09,122 INFO paper_trading_database: Saved 3 new tickers to the database
+2026-10-29 17:09:27,363 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 17:09:49,337 INFO paper_trading_database: Starting ticker universe fetch
+2026-10-29 17:10:02,085 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 17:10:02,132 INFO paper_trading_database: Initializing database and saving ticker universe
+2026-10-29 17:10:11,599 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 17:10:12,095 INFO paper_trading_database: Committed 500 tickers so far
+2026-10-29 17:10:12,427 INFO paper_trading_database: Committed 1000 tickers so far
+2026-10-29 17:10:12,750 INFO paper_trading_database: Committed 1500 tickers so far
+2026-10-29 17:10:13,111 INFO paper_trading_database: Committed 2000 tickers so far
+2026-10-29 17:10:13,442 INFO paper_trading_database: Committed 2500 tickers so far
+2026-10-29 17:10:13,774 INFO paper_trading_database: Committed 3000 tickers so far
+2026-10-29 17:10:14,087 INFO paper_trading_database: Committed 3500 tickers so far
+2026-10-29 17:10:14,423 INFO paper_trading_database: Committed 4000 tickers so far
+2026-10-29 17:10:14,744 INFO paper_trading_database: Committed 4500 tickers so far
+2026-10-29 17:10:15,088 INFO paper_trading_database: Committed 5000 tickers so far
+2026-10-29 17:10:15,459 INFO paper_trading_database: Committed 5500 tickers so far
+2026-10-29 17:10:15,774 INFO paper_trading_database: Committed 6000 tickers so far
+2026-10-29 17:10:16,093 INFO paper_trading_database: Committed 6500 tickers so far
+2026-10-29 17:10:16,434 INFO paper_trading_database: Committed 7000 tickers so far
+2026-10-29 17:10:16,753 INFO paper_trading_database: Committed 7500 tickers so far
+2026-10-29 17:10:17,091 INFO paper_trading_database: Committed 8000 tickers so far
+2026-10-29 17:10:17,407 INFO paper_trading_database: Committed 8500 tickers so far
+2026-10-29 17:10:17,722 INFO paper_trading_database: Committed 9000 tickers so far
+2026-10-29 17:10:18,073 INFO paper_trading_database: Committed 9500 tickers so far
+2026-10-29 17:10:18,386 INFO paper_trading_database: Committed 10000 tickers so far
+2026-10-29 17:10:18,733 INFO paper_trading_database: Committed 10500 tickers so far
+2026-10-29 17:10:19,095 INFO paper_trading_database: Committed 11000 tickers so far
+2026-10-29 17:10:19,422 INFO paper_trading_database: Committed 11500 tickers so far
+2026-10-29 17:10:19,827 INFO paper_trading_database: Committed 12000 tickers so far
+2026-10-29 17:10:20,172 INFO paper_trading_database: Committed 12500 tickers so far
+2026-10-29 17:10:20,516 INFO paper_trading_database: Committed 13000 tickers so far
+2026-10-29 17:10:20,735 INFO paper_trading_database: Saved 13288 new tickers to the database
+2026-10-29 17:10:20,736 INFO paper_trading_database: Saved 13288 new tickers to the database
+2026-10-29 17:58:13,538 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 17:58:18,310 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-29 17:58:18,310 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-29 17:59:15,312 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 17:59:20,040 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-29 17:59:20,040 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-29 17:59:36,885 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 17:59:41,640 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-29 17:59:41,640 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-29 18:01:45,997 INFO paper_trading_database: Fetched master universe with 13288 tickers
+2026-10-29 18:01:50,750 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-29 18:01:50,751 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-30 09:29:39,656 INFO paper_trading_database: Fetched master universe with 13292 tickers
+2026-10-30 09:30:00,244 INFO paper_trading_database: Fetched master universe with 13292 tickers
+2026-10-30 09:30:04,664 INFO paper_trading_database: Saved 4 new tickers to the database
+2026-10-30 09:30:04,664 INFO paper_trading_database: Saved 4 new tickers to the database
+2026-10-30 09:36:02,184 INFO paper_trading_database: Fetched master universe with 13290 tickers
+2026-10-30 09:36:28,156 INFO paper_trading_database: Fetched master universe with 13290 tickers
+2026-10-30 09:38:43,524 INFO paper_trading_database: Fetched master universe with 13290 tickers
+2026-10-30 09:41:23,889 INFO paper_trading_database: Fetched master universe with 13290 tickers
+2026-10-30 09:42:19,887 INFO paper_trading_database: Fetched master universe with 13290 tickers
+2026-10-30 09:43:36,077 INFO paper_trading_database: Fetched master universe with 13290 tickers
+2026-10-30 09:43:36,370 INFO paper_trading_database: Committed 500 tickers so far
+2026-10-30 09:43:36,661 INFO paper_trading_database: Committed 1000 tickers so far
+2026-10-30 09:43:36,904 INFO paper_trading_database: Committed 1500 tickers so far
+2026-10-30 09:43:37,118 INFO paper_trading_database: Committed 2000 tickers so far
+2026-10-30 09:43:37,330 INFO paper_trading_database: Committed 2500 tickers so far
+2026-10-30 09:43:37,541 INFO paper_trading_database: Committed 3000 tickers so far
+2026-10-30 09:43:37,817 INFO paper_trading_database: Committed 3500 tickers so far
+2026-10-30 09:43:38,040 INFO paper_trading_database: Committed 4000 tickers so far
+2026-10-30 09:43:38,274 INFO paper_trading_database: Committed 4500 tickers so far
+2026-10-30 09:43:38,484 INFO paper_trading_database: Committed 5000 tickers so far
+2026-10-30 09:43:38,707 INFO paper_trading_database: Committed 5500 tickers so far
+2026-10-30 09:43:38,912 INFO paper_trading_database: Committed 6000 tickers so far
+2026-10-30 09:43:39,124 INFO paper_trading_database: Committed 6500 tickers so far
+2026-10-30 09:43:39,337 INFO paper_trading_database: Committed 7000 tickers so far
+2026-10-30 09:43:39,557 INFO paper_trading_database: Committed 7500 tickers so far
+2026-10-30 09:43:39,784 INFO paper_trading_database: Committed 8000 tickers so far
+2026-10-30 09:43:39,998 INFO paper_trading_database: Committed 8500 tickers so far
+2026-10-30 09:43:40,221 INFO paper_trading_database: Committed 9000 tickers so far
+2026-10-30 09:43:40,433 INFO paper_trading_database: Committed 9500 tickers so far
+2026-10-30 09:43:40,626 INFO paper_trading_database: Committed 10000 tickers so far
+2026-10-30 09:43:40,832 INFO paper_trading_database: Committed 10500 tickers so far
+2026-10-30 09:43:41,051 INFO paper_trading_database: Committed 11000 tickers so far
+2026-10-30 09:43:41,260 INFO paper_trading_database: Committed 11500 tickers so far
+2026-10-30 09:43:41,487 INFO paper_trading_database: Committed 12000 tickers so far
+2026-10-30 09:43:41,700 INFO paper_trading_database: Committed 12500 tickers so far
+2026-10-30 09:43:41,925 INFO paper_trading_database: Committed 13000 tickers so far
+2026-10-30 09:43:42,076 INFO paper_trading_database: Saved 13290 new tickers to the database
+2026-10-30 09:43:42,076 INFO paper_trading_database: Saved 13290 new tickers to the database
+2026-10-30 09:56:09,896 INFO paper_trading_database: Fetched master universe with 13290 tickers
+2026-10-30 09:56:14,323 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-30 09:56:14,323 INFO paper_trading_database: Saved 0 new tickers to the database
