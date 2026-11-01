@@ -12,20 +12,3 @@ from edgar import set_identity, Company
 
 if __name__ == "__main__":
     Base.metadata.create_all(bind=engine)
-    set_identity("yourname@example.com")
-
-    company = Company("AAPL")
-
-    financials = company.get_financials()
-    income_df = financials.income_statement().to_dataframe()
-    balance_df = financials.balance_sheet().to_dataframe()
-    cashflow_df = financials.cash_flow_statement().to_dataframe()
-
-    print("--- Income Statement ---")
-    print(income_df)
-
-    print("--- Balance Sheet ---")
-    print(balance_df)
-
-    print("--- Cash Flow Statement ---")
-    print(cashflow_df)
