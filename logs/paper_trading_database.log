@@ -128,3 +128,138 @@
 2026-10-30 09:56:09,896 INFO paper_trading_database: Fetched master universe with 13290 tickers
 2026-10-30 09:56:14,323 INFO paper_trading_database: Saved 0 new tickers to the database
 2026-10-30 09:56:14,323 INFO paper_trading_database: Saved 0 new tickers to the database
+2026-10-30 12:20:06,654 INFO paper_trading_database: Fetched master universe with 13290 tickers
+2026-10-30 12:20:07,177 INFO paper_trading_database: Processed 500 tickers so far
+2026-10-30 12:20:07,423 INFO paper_trading_database: Processed 1000 tickers so far
+2026-10-30 12:20:07,661 INFO paper_trading_database: Processed 1500 tickers so far
+2026-10-30 12:20:07,926 INFO paper_trading_database: Processed 2000 tickers so far
+2026-10-30 12:20:08,173 INFO paper_trading_database: Processed 2500 tickers so far
+2026-10-30 12:20:08,435 INFO paper_trading_database: Processed 3000 tickers so far
+2026-10-30 12:20:08,673 INFO paper_trading_database: Processed 3500 tickers so far
+2026-10-30 12:20:08,915 INFO paper_trading_database: Processed 4000 tickers so far
+2026-10-30 12:20:09,170 INFO paper_trading_database: Processed 4500 tickers so far
+2026-10-30 12:20:09,423 INFO paper_trading_database: Processed 5000 tickers so far
+2026-10-30 12:20:09,679 INFO paper_trading_database: Processed 5500 tickers so far
+2026-10-30 12:20:09,916 INFO paper_trading_database: Processed 6000 tickers so far
+2026-10-30 12:20:10,175 INFO paper_trading_database: Processed 6500 tickers so far
+2026-10-30 12:20:10,412 INFO paper_trading_database: Processed 7000 tickers so far
+2026-10-30 12:20:10,649 INFO paper_trading_database: Processed 7500 tickers so far
+2026-10-30 12:20:10,880 INFO paper_trading_database: Processed 8000 tickers so far
+2026-10-30 12:20:11,133 INFO paper_trading_database: Processed 8500 tickers so far
+2026-10-30 12:20:11,404 INFO paper_trading_database: Processed 9000 tickers so far
+2026-10-30 12:20:11,665 INFO paper_trading_database: Processed 9500 tickers so far
+2026-10-30 12:20:11,896 INFO paper_trading_database: Processed 10000 tickers so far
+2026-10-30 12:20:12,129 INFO paper_trading_database: Processed 10500 tickers so far
+2026-10-30 12:20:12,362 INFO paper_trading_database: Processed 11000 tickers so far
+2026-10-30 12:20:12,592 INFO paper_trading_database: Processed 11500 tickers so far
+2026-10-30 12:20:12,824 INFO paper_trading_database: Processed 12000 tickers so far
+2026-10-30 12:20:13,083 INFO paper_trading_database: Processed 12500 tickers so far
+2026-10-30 12:20:13,362 INFO paper_trading_database: Processed 13000 tickers so far
+2026-10-30 12:20:13,540 INFO paper_trading_database: Universe sync complete. Total processed: 13290
+2026-10-30 12:20:13,540 INFO paper_trading_database: Saved 13290 new tickers to the database
+2026-10-30 12:21:09,311 INFO paper_trading_database: Fetched master universe with 13290 tickers
+2026-10-30 12:21:09,826 INFO paper_trading_database: Processed 500 tickers so far
+2026-10-30 12:21:10,101 INFO paper_trading_database: Processed 1000 tickers so far
+2026-10-30 12:21:10,343 INFO paper_trading_database: Processed 1500 tickers so far
+2026-10-30 12:21:10,684 INFO paper_trading_database: Processed 2000 tickers so far
+2026-10-30 12:21:11,046 INFO paper_trading_database: Processed 2500 tickers so far
+2026-10-30 12:21:11,378 INFO paper_trading_database: Processed 3000 tickers so far
+2026-10-30 12:21:11,675 INFO paper_trading_database: Processed 3500 tickers so far
+2026-10-30 12:21:11,984 INFO paper_trading_database: Processed 4000 tickers so far
+2026-10-30 12:21:12,255 INFO paper_trading_database: Processed 4500 tickers so far
+2026-10-30 12:21:12,519 INFO paper_trading_database: Processed 5000 tickers so far
+2026-10-30 12:21:12,774 INFO paper_trading_database: Processed 5500 tickers so far
+2026-10-30 12:21:13,045 INFO paper_trading_database: Processed 6000 tickers so far
+2026-10-30 12:21:13,352 INFO paper_trading_database: Processed 6500 tickers so far
+2026-10-30 12:21:13,625 INFO paper_trading_database: Processed 7000 tickers so far
+2026-10-30 12:21:13,863 INFO paper_trading_database: Processed 7500 tickers so far
+2026-10-30 12:21:14,105 INFO paper_trading_database: Processed 8000 tickers so far
+2026-10-30 12:21:14,443 INFO paper_trading_database: Processed 8500 tickers so far
+2026-10-30 12:21:14,701 INFO paper_trading_database: Processed 9000 tickers so far
+2026-10-30 12:21:14,938 INFO paper_trading_database: Processed 9500 tickers so far
+2026-10-30 12:21:15,195 INFO paper_trading_database: Processed 10000 tickers so far
+2026-10-30 12:21:15,441 INFO paper_trading_database: Processed 10500 tickers so far
+2026-10-30 12:21:15,692 INFO paper_trading_database: Processed 11000 tickers so far
+2026-10-30 12:21:15,965 INFO paper_trading_database: Processed 11500 tickers so far
+2026-10-30 12:21:16,230 INFO paper_trading_database: Processed 12000 tickers so far
+2026-10-30 12:21:16,468 INFO paper_trading_database: Processed 12500 tickers so far
+2026-10-30 12:21:16,753 INFO paper_trading_database: Processed 13000 tickers so far
+2026-10-30 12:21:16,902 INFO paper_trading_database: Universe sync complete. Total processed: 13290
+2026-10-30 12:21:16,903 INFO paper_trading_database: Saved 13290 new tickers to the database
+2026-10-31 09:11:02,078 INFO paper_trading_database: Fetched common stock & ETF universe with 10978 tickers
+2026-10-31 09:11:02,356 INFO paper_trading_database: Processed 500 tickers so far
+2026-10-31 09:11:02,603 INFO paper_trading_database: Processed 1000 tickers so far
+2026-10-31 09:11:02,857 INFO paper_trading_database: Processed 1500 tickers so far
+2026-10-31 09:11:03,120 INFO paper_trading_database: Processed 2000 tickers so far
+2026-10-31 09:11:03,376 INFO paper_trading_database: Processed 2500 tickers so far
+2026-10-31 09:11:03,629 INFO paper_trading_database: Processed 3000 tickers so far
+2026-10-31 09:11:03,867 INFO paper_trading_database: Processed 3500 tickers so far
+2026-10-31 09:11:04,145 INFO paper_trading_database: Processed 4000 tickers so far
+2026-10-31 09:11:04,436 INFO paper_trading_database: Processed 4500 tickers so far
+2026-10-31 09:11:04,683 INFO paper_trading_database: Processed 5000 tickers so far
+2026-10-31 09:11:04,930 INFO paper_trading_database: Processed 5500 tickers so far
+2026-10-31 09:11:05,158 INFO paper_trading_database: Processed 6000 tickers so far
+2026-10-31 09:11:05,399 INFO paper_trading_database: Processed 6500 tickers so far
+2026-10-31 09:11:05,643 INFO paper_trading_database: Processed 7000 tickers so far
+2026-10-31 09:11:05,884 INFO paper_trading_database: Processed 7500 tickers so far
+2026-10-31 09:11:06,120 INFO paper_trading_database: Processed 8000 tickers so far
+2026-10-31 09:11:06,402 INFO paper_trading_database: Processed 8500 tickers so far
+2026-10-31 09:11:06,643 INFO paper_trading_database: Processed 9000 tickers so far
+2026-10-31 09:11:06,938 INFO paper_trading_database: Processed 9500 tickers so far
+2026-10-31 09:11:07,188 INFO paper_trading_database: Processed 10000 tickers so far
+2026-10-31 09:11:07,438 INFO paper_trading_database: Processed 10500 tickers so far
+2026-10-31 09:11:07,675 INFO paper_trading_database: Universe sync complete. Total processed: 10978
+2026-10-31 09:11:07,675 INFO paper_trading_database: Saved 10978 new tickers to the database
+2026-10-31 09:12:14,518 INFO paper_trading_database: Fetched master universe with 13285 tickers
+2026-10-31 09:12:14,941 INFO paper_trading_database: Processed 500 tickers so far
+2026-10-31 09:12:15,247 INFO paper_trading_database: Processed 1000 tickers so far
+2026-10-31 09:12:15,533 INFO paper_trading_database: Processed 1500 tickers so far
+2026-10-31 09:12:15,824 INFO paper_trading_database: Processed 2000 tickers so far
+2026-10-31 09:12:16,098 INFO paper_trading_database: Processed 2500 tickers so far
+2026-10-31 09:12:16,391 INFO paper_trading_database: Processed 3000 tickers so far
+2026-10-31 09:12:16,690 INFO paper_trading_database: Processed 3500 tickers so far
+2026-10-31 09:12:16,968 INFO paper_trading_database: Processed 4000 tickers so far
+2026-10-31 09:12:17,268 INFO paper_trading_database: Processed 4500 tickers so far
+2026-10-31 09:12:17,504 INFO paper_trading_database: Processed 5000 tickers so far
+2026-10-31 09:12:17,762 INFO paper_trading_database: Processed 5500 tickers so far
+2026-10-31 09:12:18,021 INFO paper_trading_database: Processed 6000 tickers so far
+2026-10-31 09:12:18,285 INFO paper_trading_database: Processed 6500 tickers so far
+2026-10-31 09:12:18,560 INFO paper_trading_database: Processed 7000 tickers so far
+2026-10-31 09:12:18,820 INFO paper_trading_database: Processed 7500 tickers so far
+2026-10-31 09:12:19,093 INFO paper_trading_database: Processed 8000 tickers so far
+2026-10-31 09:12:19,355 INFO paper_trading_database: Processed 8500 tickers so far
+2026-10-31 09:12:19,599 INFO paper_trading_database: Processed 9000 tickers so far
+2026-10-31 09:12:19,838 INFO paper_trading_database: Processed 9500 tickers so far
+2026-10-31 09:12:20,115 INFO paper_trading_database: Processed 10000 tickers so far
+2026-10-31 09:12:20,400 INFO paper_trading_database: Processed 10500 tickers so far
+2026-10-31 09:12:20,669 INFO paper_trading_database: Processed 11000 tickers so far
+2026-10-31 09:12:20,910 INFO paper_trading_database: Processed 11500 tickers so far
+2026-10-31 09:12:21,151 INFO paper_trading_database: Processed 12000 tickers so far
+2026-10-31 09:12:21,392 INFO paper_trading_database: Processed 12500 tickers so far
+2026-10-31 09:12:21,671 INFO paper_trading_database: Processed 13000 tickers so far
+2026-10-31 09:12:21,829 INFO paper_trading_database: Universe sync complete. Total processed: 13285
+2026-10-31 09:12:21,829 INFO paper_trading_database: Saved 13285 new tickers to the database
+2026-10-31 09:14:32,427 INFO paper_trading_database: Fetched common stock & ETF universe with 10978 tickers
+2026-10-31 09:14:32,673 INFO paper_trading_database: Processed 500 tickers so far
+2026-10-31 09:14:32,881 INFO paper_trading_database: Processed 1000 tickers so far
+2026-10-31 09:14:33,095 INFO paper_trading_database: Processed 1500 tickers so far
+2026-10-31 09:14:33,327 INFO paper_trading_database: Processed 2000 tickers so far
+2026-10-31 09:14:33,565 INFO paper_trading_database: Processed 2500 tickers so far
+2026-10-31 09:14:33,869 INFO paper_trading_database: Processed 3000 tickers so far
+2026-10-31 09:14:34,112 INFO paper_trading_database: Processed 3500 tickers so far
+2026-10-31 09:14:34,342 INFO paper_trading_database: Processed 4000 tickers so far
+2026-10-31 09:14:34,577 INFO paper_trading_database: Processed 4500 tickers so far
+2026-10-31 09:14:34,812 INFO paper_trading_database: Processed 5000 tickers so far
+2026-10-31 09:14:35,031 INFO paper_trading_database: Processed 5500 tickers so far
+2026-10-31 09:14:35,255 INFO paper_trading_database: Processed 6000 tickers so far
+2026-10-31 09:14:35,489 INFO paper_trading_database: Processed 6500 tickers so far
+2026-10-31 09:14:35,714 INFO paper_trading_database: Processed 7000 tickers so far
+2026-10-31 09:14:35,922 INFO paper_trading_database: Processed 7500 tickers so far
+2026-10-31 09:14:36,143 INFO paper_trading_database: Processed 8000 tickers so far
+2026-10-31 09:14:36,367 INFO paper_trading_database: Processed 8500 tickers so far
+2026-10-31 09:14:36,593 INFO paper_trading_database: Processed 9000 tickers so far
+2026-10-31 09:14:36,833 INFO paper_trading_database: Processed 9500 tickers so far
+2026-10-31 09:14:37,067 INFO paper_trading_database: Processed 10000 tickers so far
+2026-10-31 09:14:37,294 INFO paper_trading_database: Processed 10500 tickers so far
+2026-10-31 09:14:37,506 INFO paper_trading_database: Universe sync complete. Total processed: 10978
+2026-10-31 09:14:37,506 INFO paper_trading_database: Saved 10978 new tickers to the database
