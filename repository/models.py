@@ -58,13 +58,12 @@ class IncomeStatement(Base):
     __tablename__ = "income_statements"
 
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
-    ticker_id: Mapped[int] = mapped_column(ForeignKey("tickers.id"), nullable=False)
-    revenue: Mapped[float] = mapped_column(Float, nullable=False)
-    cost_of_goods_sold: Mapped[float] = mapped_column(Float, nullable=False)
-    gross_profit: Mapped[float] = mapped_column(Float, nullable=False)
-    operating_expenses: Mapped[float] = mapped_column(Float, nullable=False)
-    operating_income: Mapped[float] = mapped_column(Float, nullable=False)
-    net_income: Mapped[float] = mapped_column(Float, nullable=False)
+    ticker_id: Mapped[int] = mapped_column(ForeignKey("tickers.id"), nullable=True)
+    revenue: Mapped[float] = mapped_column(Float, nullable=True)
+    cost_of_goods_sold: Mapped[float] = mapped_column(Float, nullable=True)
+    gross_profit: Mapped[float] = mapped_column(Float, nullable=True)
+    operating_income: Mapped[float] = mapped_column(Float, nullable=True)
+    net_income: Mapped[float] = mapped_column(Float, nullable=True)
     fiscal_year: Mapped[int] = mapped_column(Date, nullable=False)
 
     created_at: Mapped[datetime] = mapped_column(

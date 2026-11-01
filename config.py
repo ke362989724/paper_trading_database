@@ -18,4 +18,5 @@ def normalize_database_url(raw_url: str | None) -> str | None:
 IBKR_HOST = os.getenv("IBKR_HOST", "127.0.0.1")
 IBKR_PORT = int(os.getenv("IBKR_PORT", "4002"))
 IBKR_CLIENT_ID = int(os.getenv("IBKR_CLIENT_ID", "1"))
+MY_EMAIL = os.getenv("MY_EMAIL")
 DATABASE_URL = normalize_database_url(os.getenv("DATABASE_URL"))
