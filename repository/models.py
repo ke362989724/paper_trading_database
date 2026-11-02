@@ -11,6 +11,7 @@ class Ticker(Base):
     ticker: Mapped[str] = mapped_column(String(10), unique=True, nullable=False)
     is_etf: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True, nullable=False)
+    pit_market_cap: Mapped[float] = mapped_column(Float, nullable=True)
 
     created_at: Mapped[datetime] = mapped_column(
         DateTime, server_default=func.now(), nullable=False
@@ -22,6 +23,21 @@ class Ticker(Base):
 
     # Relationship back to DailyCandle (optional, but recommended)
     candles: Mapped[list["DailyCandle"]] = relationship(
+        back_populates="ticker_rel", cascade="all, delete-orphan"
+    )
+
+    # Relationship back to IncomeStatement (optional, but recommended)
+    income_statements: Mapped[list["IncomeStatement"]] = relationship(
+        back_populates="ticker_rel", cascade="all, delete-orphan"
+    )
+
+    # Relationship back to BalanceSheet (optional, but recommended)
+    balance_sheets: Mapped[list["BalanceSheet"]] = relationship(
+        back_populates="ticker_rel", cascade="all, delete-orphan"
+    )
+
+    # Relationship back to CashFlowStatement (optional, but recommended)
+    cash_flow_statements: Mapped[list["CashFlowStatement"]] = relationship(
         back_populates="ticker_rel", cascade="all, delete-orphan"
     )
 
@@ -77,7 +93,7 @@ class IncomeStatement(Base):
     ticker_rel: Mapped["Ticker"] = relationship(back_populates="income_statements")
 
     __table_args__ = (
-        UniqueConstraint("ticker_id", "fiscal_year", name="uix_ticker_fiscal_year"),
+        UniqueConstraint("ticker_id", "fiscal_year", name="uix_income_statements_ticker_fiscal_year"),
     )
 
 class BalanceSheet(Base):
@@ -101,7 +117,7 @@ class BalanceSheet(Base):
     ticker_rel: Mapped["Ticker"] = relationship(back_populates="balance_sheets")
 
     __table_args__ = (
-        UniqueConstraint("ticker_id", "fiscal_year", name="uix_ticker_fiscal_year"),
+        UniqueConstraint("ticker_id", "fiscal_year", name="uix_balance_sheets_ticker_fiscal_year"),
     )
 
 class CashFlowStatement(Base):
@@ -125,5 +141,5 @@ class CashFlowStatement(Base):
     ticker_rel: Mapped["Ticker"] = relationship(back_populates="cash_flow_statements")
 
     __table_args__ = (
-        UniqueConstraint("ticker_id", "fiscal_year", name="uix_ticker_fiscal_year"),
+        UniqueConstraint("ticker_id", "fiscal_year", name="uix_cash_flow_statements_ticker_fiscal_year"),
     )
