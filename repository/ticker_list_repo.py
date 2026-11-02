@@ -72,4 +72,13 @@ def fetch_target_ticker(ticker: str) -> Ticker | None:
 
         # Display it in a clean, tabular format
         return id
-    
+
+def update_market_cap(ticker: str, market_cap: float) -> None:
+    with SessionLocal() as session:
+        existing = session.query(Ticker).filter(Ticker.ticker == ticker).first()
+        if existing:
+            existing.pit_market_cap = market_cap
+            session.commit()
+            logger.info("Updated market cap for ticker %s to %s", ticker, market_cap)
+        else:
+            logger.warning("Ticker %s not found in the database", ticker)

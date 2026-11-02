@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, inspect, text
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
@@ -31,7 +31,10 @@ def get_session_factory(engine_instance: Engine | None = None):
 
 
 def init_db(engine_instance: Engine | None = None) -> None:
-    Base.metadata.create_all(bind=engine_instance or engine)
+    active_engine = engine_instance or engine
+    Base.metadata.create_all(bind=active_engine)
+
+
 
 
 # Re-export model for existing imports used across the codebase.
