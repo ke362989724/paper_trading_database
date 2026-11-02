@@ -1,4 +1,4 @@
-from data_source.edgar_income_statement import fetch_revenue_and_net_income_by_year
+from data_source.edgar_income_statement import fetch_income_statement_by_year
 from data_source.edgar_income_statement import save_income_statement
 from repository.ticker_list_repo import fetch_active_us_universe
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -7,7 +7,7 @@ import time
 def _process_one_ticker(ticker: str):
     started = time.perf_counter()
     try:
-        revenue_and_net_income = fetch_revenue_and_net_income_by_year(ticker)
+        revenue_and_net_income = fetch_income_statement_by_year(ticker)
         save_income_statement(ticker, revenue_and_net_income)
         return {"ticker": ticker, "ok": True, "error": None, "sec": time.perf_counter() - started}
     except Exception as exc:

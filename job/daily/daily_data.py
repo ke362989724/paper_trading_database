@@ -9,14 +9,7 @@ from data_source.ibkr import ensure_connected
 import asyncio
 
 
-
-def fetch_and_save_us_universe():
-    us_universe = fetch_us_universe()
-    save_us_universe(us_universe)
-    return us_universe
-
-
-async def fetch_and_save_daily_data(batch_size=5, delay=2):
+async def fetch_and_save_daily_data(batch_size=5, delay=1):
     active_tickers = fetch_active_us_universe()
     active_tickers_len = len(active_tickers)
     await ensure_connected()

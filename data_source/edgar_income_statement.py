@@ -16,7 +16,7 @@ def fetch_income_statement(ticker: str):
 
     return income_statement.to_dataframe()
 
-def fetch_revenue_and_net_income_by_year(ticker: str):
+def fetch_income_statement_by_year(ticker: str):
     income_statement = fetch_income_statement(ticker)
     # save the raw income statement to a CSV file for reference
     
@@ -57,6 +57,6 @@ def fetch_revenue_and_net_income_by_year(ticker: str):
 
 if __name__ == "__main__":
     for ticker in ["NVDA"]:
-        revenue_and_net_income = fetch_revenue_and_net_income_by_year(ticker)
+        revenue_and_net_income = fetch_income_statement_by_year(ticker)
         save_income_statement(ticker, revenue_and_net_income)
         print("finished fetching and saving income statement for", ticker)

@@ -34,8 +34,3 @@ def init_db(engine_instance: Engine | None = None) -> None:
     active_engine = engine_instance or engine
     Base.metadata.create_all(bind=active_engine)
 
-
-
-
-# Re-export model for existing imports used across the codebase.
-from repository.models import Ticker  # noqa: E402

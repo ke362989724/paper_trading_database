@@ -1,10 +1,11 @@
 import pandas as pd
 
 from logging_config import configure_logging
-from repository.database import SessionLocal, Ticker
+from repository.database import SessionLocal
 from repository.ticker_list_repo import fetch_target_ticker
 from sqlalchemy.dialects.postgresql import insert
 from repository.models import DailyCandle
+from repository.models import Ticker
 
 logger = configure_logging()
 

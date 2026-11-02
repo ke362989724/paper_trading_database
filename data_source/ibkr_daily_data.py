@@ -8,7 +8,7 @@ async def fetch_single_daily_data(symbol):
         bars = await ib.reqHistoricalDataAsync(
             contract,
             endDateTime='',
-            durationStr='2 Y',
+            durationStr='3 D',
             barSizeSetting='1 day',
             whatToShow='TRADES',
             useRTH=True,
